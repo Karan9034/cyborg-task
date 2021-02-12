@@ -1,0 +1,35 @@
+body{
+  background-color: #333;
+}
+.navbar {
+  margin-bottom: 2vw;
+  background-color: #000;
+  position: sticky;
+  border: 0;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 2px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #ccc !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #ccc !important;
+  background-color: #000 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #000 !important;
+}
+
+.post{
+  background-color: #000;
+  border-radius: 10px;
+  color: #ccc;
+  padding-bottom: 1vw;
+  margin-bottom: 2vw;
+}
