@@ -33,3 +33,15 @@ body{
   padding-bottom: 1vw;
   margin-bottom: 2vw;
 }
+
+
+@media all and (max-width: 600px){
+  .navbar{
+    padding-top: 5px;
+    height: 60px !important;
+    margin-bottom: 5vw;
+  }
+  .post{
+    margin: 0 3vw 5vw 3vw;
+  }
+}
