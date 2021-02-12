@@ -33,15 +33,32 @@ body{
   padding-bottom: 1vw;
   margin-bottom: 2vw;
 }
+.post a{
+  color: #ccc;
+}
+
+.post img.img{
+  content:url('http://placehold.it/250x150');
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vw;
+}
 
 
-@media all and (max-width: 600px){
+@media all and (max-width: 450px){
   .navbar{
     padding-top: 5px;
-    height: 60px !important;
     margin-bottom: 5vw;
+    letter-spacing: 1px;
   }
   .post{
     margin: 0 3vw 5vw 3vw;
   }
+  .post img.img{
+    content:url('http://placehold.it/300x150');
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+  }
+
 }
