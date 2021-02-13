@@ -26,6 +26,10 @@ body{
   color: #000 !important;
 }
 
+.title p{
+  color: #777;
+}
+
 .post{
   background-color: #000;
   border-radius: 10px;
@@ -35,6 +39,7 @@ body{
 }
 .post a{
   color: #ccc;
+  text-decoration: none;
 }
 
 .post img.img{
@@ -43,7 +48,6 @@ body{
   margin-right: auto;
   margin-top: 1vw;
 }
-
 
 @media all and (max-width: 450px){
   .navbar{
@@ -56,8 +60,8 @@ body{
   }
   .post img.img{
     content:url('http://placehold.it/300x150');
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
     margin-top: 3vw;
   }
 
